@@ -7,17 +7,16 @@ const Navbar = () => {
     <section>
         <header>
             <Link href="/"><Image className='logo' src="/svg/logo.svg" alt="logo" width={200} height={81.365}/></Link>
-            {/* <nav>
+            <nav>
+                <h1>Menu</h1>
+                <h2>Hover <br/>here</h2>
                 <li>
-                    <Link href="/"><a>Home</a></Link>
-                    <Link href="/services"><a>Services</a></Link>
-                    <Link href="/process"><a>Process</a></Link>
                     <Link href="/portfolio"><a>Portfolio</a></Link>
-                    <Link href="/blog"><a>Blog</a></Link>
-                    <Link href="/faq"><a>FAQ</a></Link>
+                    <Link href="/services"><a>Services</a></Link>
+                    <Link href="/about"><a>About</a></Link>
+                    <Link href="/contact"><a>Contact</a></Link>
                 </li>
-                <Link href="/quote"><button>Pricing</button></Link>
-            </nav> */}
+            </nav>
         </header>
     </section>
   )
