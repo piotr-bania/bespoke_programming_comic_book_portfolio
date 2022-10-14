@@ -90,4 +90,10 @@ header li a {
 }
 header li a:hover {
   color: #E6F561;
+}
+
+/* ------------------------------ Canvas Hero ------------------------------ */
+.canvasHero {
+  border: 1px solid pink;
+  z-index: -1;
 }/*# sourceMappingURL=globals.css.map */

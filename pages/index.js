@@ -1,4 +1,8 @@
 import Head from 'next/head'
+import Image from 'next/image'
+
+import CanvasHero from '../components/canvas/CanvasHero'
+import Element1 from '../components/webgl_elements/Element1'
 
 export default function Home() {
   return (
@@ -10,10 +14,13 @@ export default function Home() {
         <link rel="icon" href="/svg/favicon.svg" />
       </Head>
 
+      {/* ---------------------- Canvas ---------------------- */}
+      <CanvasHero />
+
       {/* ---------------------- Hero ---------------------- */}
       <section id='hero'>
         <div>
-
+          <Element1/>
         </div>
       </section>
 
